@@ -1,0 +1,36 @@
+/*the box model
+- everything on the web exists as a box
+- if we add padding or border to that box it will grow
+- if we give a box a width we want it to respect that width
+- to tell the box to respect the width and apply the padding and border within the width we've given it we use the box-sizing:border-box; rule, we can set this at the top of our code on our universal selector and then forget it. 
+*/
+/*
+inline - takes up only the space it needs and everything else continues after it on the same line. Problem is that it cannot take a width or height
+block - takes up 100% of the screen and pushes every element after it to a new line
+inline-block - best of both worlds, we can give it a width/height and it only takes up as much space as it needs 
+none - the element no longer takes up any space on the page. 
+*/
+
+/*Brit uses % for most elements on the page, she uses rems for fonts, and sometimes vh for her headers*/
+
+
+.boxOne{
+    background-color:orange;
+  
+  }
+  
+  .boxTwo{
+    background-color:hotpink;
+    
+  }
+  
+  .boxThree{
+    background-color:lavender;
+    
+  }
+  
+  .boxFour{
+    background-color:skyblue;
+  
+  }
+  
